@@ -1,0 +1,9 @@
+Torrent peertube videos remotely and then stream them as normal files.
+
+127.0.0.1:8283/<peertube_url> returns the file
+127.0.0.1:8283/stats returns stats since program started
+
+npm install webtorrent requests
+nodejs server.js
+
+Warning: this is a nodejs project
